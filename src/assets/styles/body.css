@@ -1,0 +1,100 @@
+h1{
+    color: black;
+    margin-top: 60px;
+  }
+h2{
+    color: black;
+    width: fit-content;
+}
+  .view-container {
+      margin-top: 0;
+      display: grid;
+      grid-template-columns: 400px;
+      margin-left: 180px;
+    }
+  .textarea-container {
+    color: black;
+    margin-top: 0;
+    width: 400px;
+    grid-column: 1;
+    }
+  .content-container {
+    grid-column: 2;
+    width:350px;
+    display: grid;
+  }
+  .close-container {
+    grid-column: 3;
+    margin-left: 13px;
+  }
+  
+  .lower-content{
+    grid-row: 3;
+    align-content:end;
+    margin-bottom: 7px;
+  }
+
+  .container {
+    width: 1300px;
+    margin: 60px auto 0;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .file{
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    will-change: box-shadow,transform;
+    background: #FCFCFD;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+    font-size: 18px;
+    border-radius: 6px;
+    color: #36395a;
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+  }
+  .add-file {
+  width: 400px;
+  margin: 10px;
+  margin-bottom: 50px;
+  padding: 17px;
+  border: 2px solid #ccc; 
+  border-color: rgba(100, 100, 255, 0.3);
+  text-align: center;
+  outline: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: rgba(100, 100, 255, 0.3);
+  box-shadow: 0px 2px 4px rgba(45, 35, 66, 0.4), 
+              0px 7px 13px -3px rgba(45, 35, 66, 0.3), 
+              inset 0px -3px 0px rgba(100, 100, 255, 0.3);
+  font-size: 18px;
+  border-radius: 6px;
+  color: #36395a;
+}
+  .file-wrapper{
+    height: 105px;
+  }
+  
+  .add-file:hover, .file:hover {
+    box-shadow: 
+    0px 4px 8px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%), 
+    inset 0px -3px 0px #d6d6e7,
+    0 0 50px rgba(100, 100, 255, 0.3);
+    transform: translateY(-2px);
+  }
+  .add-file:active, .file:active{
+    box-shadow: inset 0px 3px 7px #d6d6e7;
+    transform: translateY(2px);
+  } 

@@ -1,0 +1,92 @@
+.btn {
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    will-change: box-shadow, transform;
+    background: #FCFCFD;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+    font-size: 18px;
+    border-radius: 6px;
+    color: #36395a;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  .btn:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 
+               0px 7px 13px -3px rgb(45 35 66 / 30%), 
+               inset 0px -3px 0px #d6d6e7,
+               0 0 10px rgba(100, 100, 255, 0.3);
+    transform: translateY(-2px);
+  }
+  .btn:active {
+    box-shadow: inset 0px 3px 7px #d6d6e7;
+    transform: translateY(2px);
+  }
+
+  
+  
+  .btn-remove-permenant{
+    background-color: #ff4d4d;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(255, 45, 45, 0.4), 
+               0px 7px 13px -3px rgba(255, 35, 35, 0.3), 
+               inset 0px -3px 0px #e74c3c,
+               0 0 10px rgba(255, 100, 100, 0.3);
+  }
+  .btn-remove:hover {
+    background: #ff4d4d;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(255, 45, 45, 0.4), 
+               0px 7px 13px -3px rgba(255, 35, 35, 0.3), 
+               inset 0px -3px 0px #e74c3c,
+               0 0 10px rgba(255, 100, 100, 0.3);
+  }
+  .btn-remove:active {
+    background: #ff4d4d;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(255, 45, 45, 0.4), 
+               0px 7px 13px -3px rgba(255, 35, 35, 0.3), 
+               inset 0px -3px 0px #e74c3c,
+               0 0 10px rgba(255, 100, 100, 0.3);
+  }
+
+  .btn-indicate, .btn-indicate-permenant{
+    background: rgba(100, 100, 255, 0.3);
+    color: white;
+    box-shadow: 0px 2px 4px rgba(45, 35, 66, 0.4), 
+              0px 7px 13px -3px rgba(45, 35, 66, 0.3), 
+              inset 0px -3px 0px rgba(100, 100, 255, 0.3);
+    color: #36395a;
+  }
+  
+  .btn-indicate:hover {
+    background: rgba(100, 100, 255, 0.3);
+    color: white;
+    box-shadow: 0px 2px 4px rgba(45, 35, 66, 0.4), 
+              0px 7px 13px -3px rgba(45, 35, 66, 0.3), 
+              inset 0px -3px 0px rgba(100, 100, 255, 0.3);
+  }
+  .btn-indicate:active {
+    background: rgba(100, 100, 255, 0.3);
+    box-shadow: inset 0px -3px 0px rgba(100, 100, 255, 0.3);
+  }
+  
+  .x-btn{
+    padding: 0px;
+    width: 60px;
+    height: 64px; 
+    text-align: center;
+    color: black;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease, transform 0.15s ease, background-color 0.3s ease;
+    will-change: box-shadow, transform;
+    background: #FCFCFD;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+    font-size: 18px;
+    border-radius: 6px;
+  }
